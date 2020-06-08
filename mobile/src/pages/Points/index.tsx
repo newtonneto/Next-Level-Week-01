@@ -194,10 +194,13 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontFamily: 'Ubuntu_700Bold',
         marginTop: 24,
+        //No código original o elemento color não existia
+        color: '#FFF',
     },
   
     description: {
-        color: '#6C6C80',
+        //Cor original #6C6C80
+        color: '#F0F0F5',
         fontSize: 16,
         marginTop: 4,
         fontFamily: 'Roboto_400Regular',
@@ -252,7 +255,8 @@ const styles = StyleSheet.create({
     },
   
     item: {
-        backgroundColor: '#fff',
+        //Cor original do backgroundColor #fff 989E9B
+        backgroundColor: '#727574',
         borderWidth: 2,
         borderColor: '#eee',
         height: 120,

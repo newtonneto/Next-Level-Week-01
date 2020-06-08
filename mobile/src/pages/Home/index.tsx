@@ -22,9 +22,9 @@ const Home = () => {
 
     return (
         <KeyboardAvoidingView style={{ flex: 1 }} behavior={ Platform.OS == 'ios' ? 'padding' : undefined }>
-            <ImageBackground source={ require('../../assets/home-background.png') } style={ styles.container } imageStyle={{ width: 274, height: 368 }} >
+            <ImageBackground source={ require('../../assets/home-background2.png') } style={ styles.container } imageStyle={{ width: 274, height: 368 }} >
                 <View style={ styles.main }>
-                    <Image source={ require('../../assets/logo.png') } />
+                    <Image source={ require('../../assets/logo2.png') } />
                     <View>
                         <Text style={ styles.title }>Seu marketplace de coleta de resíduos</Text>
                         <Text style={ styles.description }>Ajudamos pessoas a encontrarem pontos de coleta de foma eficiente</Text>
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
   
     title: {
         //Cor original #322153
-        color: '#322153',
+        color: '#FFF',
         fontSize: 32,
         fontFamily: 'Ubuntu_700Bold',
         maxWidth: 260,
@@ -85,7 +85,8 @@ const styles = StyleSheet.create({
     },
   
     description: {
-        color: '#6C6C80',
+        //Cor original #6C6C80
+        color: '#F0F0F5',
         fontSize: 16,
         marginTop: 16,
         fontFamily: 'Roboto_400Regular',
